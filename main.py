@@ -324,6 +324,7 @@ if __name__ == "__main__":
     while True:
         welcomeScreen() # Shows welcome screen to the user until he presses a button
         mainGame() # This is the main game function         with open("highscore.txt","r") as f:
+        with open("highscore.txt","r") as f:
             highscore = f.read()
         print(highscore)
         welcomeScreen(highscore)
